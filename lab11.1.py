@@ -1,6 +1,6 @@
 import csv
 
-num_authors = 5  
+num_authors = 15  
 
 authors = []
 for _ in range(num_authors):
@@ -12,7 +12,6 @@ authors.sort(key=lambda x: x[1])
 
 with open("authors.csv", mode="w", newline="") as file:
     writer = csv.writer(file)
-    writer.writerow(["Прізвище", "Рік народження"])
     for author in authors:
         writer.writerow(author)
 
