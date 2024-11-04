@@ -1,0 +1,7 @@
+[
+    {"model": "PhoneA", "year": 2021, "price": 300},
+    {"model": "PhoneB", "year": 2023, "price": 250},
+    {"model": "PhoneC", "year": 2020, "price": 150},
+    {"model": "PhoneD", "year": 2023, "price": 100},
+    {"model": "PhoneE", "year": 2022, "price": 500}
+]
